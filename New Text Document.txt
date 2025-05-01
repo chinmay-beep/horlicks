@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stock Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Chart.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/types.d.ts"></script>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Companies</h2>
+      <ul id="companyList"></ul>
+    </aside>
+    <main class="main-content">
+      <canvas id="stockChart"></canvas>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
